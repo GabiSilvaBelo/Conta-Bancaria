@@ -1,6 +1,6 @@
-package Conta.model;
+package Conta.Model;
 
-public class Conta {
+public abstract class Conta {
 	
 	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
 		super();

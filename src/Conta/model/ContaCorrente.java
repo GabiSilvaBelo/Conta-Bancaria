@@ -1,4 +1,4 @@
-package Conta.model;
+package Conta.Model;
 
 public class ContaCorrente extends Conta {
 

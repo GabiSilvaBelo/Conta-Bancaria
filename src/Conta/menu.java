@@ -1,10 +1,11 @@
 package Conta;
 
 import java.util.Scanner;
-import ContaUtil.cores;
-import Conta.model.Conta;
-import Conta.model.ContaCorrente;
-import Conta.model.ContaPoupanca;
+
+import Conta.Model.Conta;
+import Conta.Model.ContaCorrente;
+import Conta.Model.ContaPoupanca;
+import Conta.Util.cores;
 
 public class menu {
 
@@ -13,13 +14,7 @@ public class menu {
 		Scanner leia = new Scanner(System.in);
 
 		int opcao;
-		
-		Conta c1 = new Conta(3, 123, 1, "Mariana", 500000.0f);
-		c1.visualizar();
-		c1.sacar(12000.0f);
-		c1.visualizar();
-		c1.depositar(5000.0f);
-		c1.visualizar();
+	
         
 		// Teste da Classe Conta Corrente
 		ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "José da Silva", 0.0f, 1000.0f);

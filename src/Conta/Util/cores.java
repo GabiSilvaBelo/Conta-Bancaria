@@ -1,4 +1,4 @@
-package ContaUtil;
+package Conta.Util;
 
 public class cores {
 	
